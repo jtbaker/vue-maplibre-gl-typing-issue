@@ -28,7 +28,7 @@ const props = defineProps({
       properties: {}
     }">
 
-      <mgl-fill-layer layerId="test" :paint="{ 'fill-color': 'green'}"></mgl-fill-layer>
+      <mgl-fill-layer layerId="test" :paint="{ 'fill-color': 2}"></mgl-fill-layer>
       <local-fill-layer-component layerId="test2" :paint="{ 'fill-color': 2 }"></local-fill-layer-component>
     </mgl-geo-json-source>
   </mgl-map>
